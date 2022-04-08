@@ -9,13 +9,16 @@
 <script>
  function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
 </script>
+<link href="WebToLead.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
 
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: Please add the following <FORM> element to your page.             -->
 <!--  ----------------------------------------------------------------------  -->
-
+<div class="container">
 <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-
+<p>Welcome</p>
 <input type=hidden name='captcha_settings' value='{"keyname":"SuccessCraftTesting","fallback":"true","orgId":"00D8c000006eEDc","ts":""}'>
 <input type=hidden name="oid" value="00D8c000006eEDc">
 <input type=hidden name="retURL" value="http://">
@@ -47,3 +50,4 @@ Product Interest:<select  id="00N8c00000WAPoA" name="00N8c00000WAPoA" title="Pro
 <input type="submit" name="submit">
 
 </form>
+</div>
