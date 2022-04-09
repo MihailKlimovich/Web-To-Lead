@@ -35,10 +35,9 @@ body {
 }
 
 input,
-select,
-select.option {
+select{
     background: transparent;
-    width: 370px;
+    width: 390px;
     padding: 1em;
     margin-bottom: 2em;
     border: none;
