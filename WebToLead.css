@@ -36,7 +36,7 @@ body {
 
 input,
 select,
-option {
+select.option {
     background: transparent;
     width: 370px;
     padding: 1em;
@@ -104,4 +104,11 @@ select:hover {
     width: 120px;
     top: -60px;
     right: -60px;
+}
+
+.drop-5 {
+  height: 90px;
+  width: 90px;
+  top: -40px;
+  left: -80px;
 }
