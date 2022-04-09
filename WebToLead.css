@@ -94,7 +94,7 @@ select:hover {
 .drop-3 {
     height: 100px;
     width: 100px;
-    bottom: 120px;
+    bottom: 220px;
     right: -50px;
     z-index: -1;
 }
