@@ -1,8 +1,8 @@
 function codeAddress()
         {
             var example_array = {
-                'Carpets Hyundai' : 'HK007A1',
-                'Carpets Kia' : 'HK008A2'
+                'HK007A1' : 'Carpets Hyundai',
+                'HK008A2' : 'Carpets Kia'
 
             };
             
