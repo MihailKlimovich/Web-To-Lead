@@ -1,9 +1,9 @@
 function codeAddress()
         {
             var example_array = {
-                ValueA : 'Text A',
-                ValueB : 'Text B',
-                ValueC : 'Text C'
+                'Carpets Hyundai' : 'HK007A1',
+                'Carpets Kia' : 'HK008A2'
+
             };
             
             var select = document.getElementById("product-select");
