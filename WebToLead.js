@@ -37,7 +37,7 @@ function codeAddress() {
         VAG001C1: "Volkswagen Polo Sedan",
     };
 
-    var select = document.getElementById("product-select");
+    var select = document.getElementById("00N8c00000dUEbv");
     for (index in product_array) {
         select.options[select.options.length] = new Option(
             product_array[index],
