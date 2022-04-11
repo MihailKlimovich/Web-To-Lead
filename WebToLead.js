@@ -1,4 +1,5 @@
 function codeAddress() {
+    console.log('123456');
     var product_array = {
         HK007A1: "Carpets Hyundai",
         HK008A2: "Carpets Kia",
