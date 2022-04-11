@@ -37,13 +37,14 @@ function codeAddress() {
         VAG002C2: "Volkswagen Polo 2021",
         VAG001C1: "Volkswagen Polo Sedan",
     };
+    console.log(product_array);
 
     var select = document.getElementById("00N8c00000dUEbv");
-    for (index in product_array) {
-        select.options[select.options.length] = new Option(
-            product_array[index],
-            index
-        );
-    }
+    // for (index in product_array) {
+    //     select.options[select.options.length] = new Option(
+    //         product_array[index],
+    //         index
+    //     );
+    // }
 }
 window.onload = codeAddress;
