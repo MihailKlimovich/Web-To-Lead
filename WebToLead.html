@@ -59,6 +59,7 @@
             size="20"
             type="text"
             placeholder="Company"
+            required
         /><br />
 
         <input
@@ -67,7 +68,7 @@
             size="20"
             type="text"
             placeholder="First Name"
-            pattern="[A-Za-z0-9]+"
+
             required
         /><br />
 
@@ -77,10 +78,16 @@
             name="last_name"
             size="20"
             type="text"
-            placeholder="Last Name"
             required
         /><br />
-        
+        <input
+            maxlength="80"
+            name="email"
+            type="email"
+            placeholder="Email"
+
+            required
+        /><br />
         <input
             id="phone"
             maxlength="40"
@@ -88,19 +95,9 @@
             size="20"
             type="phone"
             placeholder="Phone"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+            
             required
     /><br />
-        <input
-            maxlength="80"
-            name="email"
-            type="email"
-            placeholder="Email"
-            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
-            required
-        /><br />
-
-        
         <select id="product-select" style="color: rgba(255, 255, 255, 0.5)">Product</select><br/>
         <!-- <select
             id="00N8c00000WAPoA"
