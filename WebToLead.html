@@ -83,8 +83,10 @@
             maxlength="80"
             name="email"
             size="20"
-            type="text"
+            type="email"
             placeholder="Email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+            required
         /><br />
 
         <input
@@ -92,8 +94,10 @@
             maxlength="40"
             name="phone"
             size="20"
-            type="text"
+            type="phone"
             placeholder="Phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+            required
         /><br />
         <select id="product-select" style="color: rgba(255, 255, 255, 0.5)">Product</select><br/>
         <!-- <select
